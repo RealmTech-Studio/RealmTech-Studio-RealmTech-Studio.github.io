@@ -56,3 +56,19 @@ es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
+zh: &DEFAULT_ZH
+  nav:
+    - title: "服务"
+      section: services
+    - title: "新闻"
+      section: portfolio
+    - title: "关于我们"
+      section: about
+    - title: "时间轴"
+      section: timeline
+    - title: "团队成员"
+      section: team
+    - title: "联系方式"
+      section: contact
+zh-CN:
+  <<: *DEFAULT_ZH
